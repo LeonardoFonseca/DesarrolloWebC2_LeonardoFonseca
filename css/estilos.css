@@ -14,20 +14,33 @@
 /*estilos cabecera*/
 .header{
 	width: 100%;
-	min-height: 150px;
-	background-color: #C06C84;
+	min-height: 80px;
+	background-color: #5b7989;
 	display: flex;
 	flex-flow: row wrap;
+	border-radius: 10px 10px 0 0;
+	align-items: center;
 }
 
 .header .titulo{
-	width: 60%;
-	background-color: #888888;
+	width: 70%;
+	
+}
+
+.header .titulo h1{
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #02010a;
 }
 
 .header .nav{
-	width: 40%;
-	background-color: #535353;
+	width: 30%;
+}
+
+.header .nav a{
+	color: #FFFFFF;
+	font-size: 1.3em;
+	padding: 15px;
 }
 
 /*estilos seccion central*/
