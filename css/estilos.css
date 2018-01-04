@@ -1,6 +1,8 @@
 *{
 	font-family: 'Dancing Script', cursive;
 	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -52,7 +54,6 @@
 	min-height: 500px;
 	display: flex;
 	flex-flow: row wrap;
-	
 }
 
 .section .seccion1{
@@ -63,20 +64,27 @@
 	background-size: cover;
 	
 }
-.section .seccion2{
+.section .seccion2, .seccion3{
 	width: 50%;
-	height: 200px;
-	background-color: #2D6E7E;
+	height: 250px;	
+	border: 1px solid #FFFFFF;
+	background: #d5c75f;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
 	
 }
 
-.section .seccion2 img{
-	width: 100%;
+
+.section .seccion2 img {
+	width: 80%;
+	max-width: 100% ;
 }
-.section .seccion3{
-	width: 50%;
-	min-height: 200px;
-	background-color: #153B44;
+
+.section .seccion3 img{
+	width: 80%;
+	max-width: 100% ;
 }
 
 /*estilos pie de pagina*/
@@ -107,4 +115,3 @@
 	width: 25%;
 	background-color: #6B6B6B;
 }
-
