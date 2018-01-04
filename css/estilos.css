@@ -33,6 +33,7 @@
 	text-align: center;
 	color: #FFFFFF;
 	text-shadow: 2px 2px #02010a;
+	font-weight: 200;
 }
 
 .header .nav{
@@ -92,26 +93,39 @@
 .footer{
 	width: 100%;
 	min-height: 250px;
-	background-color: #355C7D;
+	background-color:  #C6d5c5;
+	border-radius: 0 0 10px 10px;
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
+	
 }
+
+.footer .pie1 h2, .pie2 h2, .pie3 h2, .pie4 h2{
+	text-align: center;
+	
+} 
 
 .footer .pie1{
 	width: 25%;
-	background-color: #BFBFBF;
+	border: 1px solid white;
+	padding: 15px;
 }
+
 
 .footer .pie2{
 	width: 25%;
-	background-color: #9C9C9C;
+	border: 1px solid white;
+	padding: 15px;
 }
 .footer .pie3{
 	width: 25%;
-	background-color: #7C7C7C;
+	border: 1px solid white;
+	padding: 15px;
 }
 
 .footer .pie4{
 	width: 25%;
-	background-color: #6B6B6B;
+	border: 1px solid white;
+	padding: 15px;
 }
