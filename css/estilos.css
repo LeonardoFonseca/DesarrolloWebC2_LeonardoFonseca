@@ -1,0 +1,86 @@
+*{
+	font-family: 'Dancing Script', cursive;
+	box-sizing: border-box;
+}
+
+
+.principal{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+/*estilos cabecera*/
+.header{
+	width: 100%;
+	min-height: 150px;
+	background-color: #C06C84;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.header .titulo{
+	width: 60%;
+	background-color: #888888;
+}
+
+.header .nav{
+	width: 40%;
+	background-color: #535353;
+}
+
+/*estilos seccion central*/
+
+.section{
+	width: 100%;
+	min-height: 600px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.section .seccion1{
+	width: 100%;
+	min-height: 300px;
+	background-color: #C6DE41;
+}
+.section .seccion2{
+	width: 50%;
+	min-height: 300px;
+	background-color: #2D6E7E;
+}
+.section .seccion3{
+	width: 50%;
+	min-height: 350px;
+	background-color: #153B44;
+}
+
+/*estilos pie de pagina*/
+
+.footer{
+	width: 100%;
+	min-height: 250px;
+	background-color: #355C7D;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.footer .pie1{
+	width: 25%;
+	background-color: #BFBFBF;
+}
+
+.footer .pie2{
+	width: 25%;
+	background-color: #9C9C9C;
+}
+.footer .pie3{
+	width: 25%;
+	background-color: #7C7C7C;
+}
+
+.footer .pie4{
+	width: 25%;
+	background-color: #6B6B6B;
+}
+
