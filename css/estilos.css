@@ -91,7 +91,8 @@
 }
 
 .seccion2 img:hover{
-	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
 	-webkit-filter: drop-shadow(2px 2px  #82c3a6);
 		filter: drop-shadow(2px 2px  #82c3a6);
 }
@@ -100,6 +101,12 @@
 	width: 80%;
 	max-width: 100% ;
 	border: 1px solid #fff;
+}
+
+.section .seccion3 img:hover{
+	transform: translate(20px, -5px);
+	-webkit-filter: drop-shadow(2px 2px  #82c3a6);
+		filter: drop-shadow(2px 2px  #82c3a6);
 }
 
 /*estilos pie de pagina*/
@@ -112,13 +119,8 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	
-}
-
-.footer .pie1 h2, .pie2 h2, .pie3 h2, .pie4 h2{
 	text-align: center;
-	
-} 
+}
 
 .footer .pie1{
 	width: 25%;
@@ -135,8 +137,6 @@
 	padding: 15px;
 	text-align: center;
 }
-
-
 
 .footer .pie4{
 	width: 25%;
