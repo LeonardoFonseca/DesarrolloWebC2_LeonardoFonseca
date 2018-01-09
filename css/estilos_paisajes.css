@@ -1,7 +1,3 @@
-body{
-	background-color: #02010a;
-}
-
 *{
 	font-family: 'Dancing Script', cursive;
 	box-sizing: border-box;
@@ -11,7 +7,7 @@ body{
 
 
 .principal{
-	width: 100%;
+	width: 900px;
 	margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
@@ -67,23 +63,21 @@ body{
 
 .section .seccion1{
 	width: 100%;
-	min-height: 600px;
+	min-height: 300px;
 	background: url(../img/pexels-photo-459225.jpeg);
 	background-attachment: contain;
-	background-position: center;
 	background-size: cover;
 	
 }
 .section .seccion2, .seccion3{
 	width: 50%;
-/*	height: 250px;	*/
+	height: 250px;	
 	border: 1px solid #FFFFFF;
 	background: #d5c75f;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
-	padding: 20px;
 	
 }
 
@@ -92,14 +86,13 @@ body{
 	width: 80%;
 	max-width: 100% ;
 	border: 1px solid #fff;
-	-webkit-filter: drop-shadow(2px 2px #02010a);
-			filter: drop-shadow(2px 2px #02010a);
 	
 	
 }
 
 .seccion2 img:hover{
 	-webkit-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
 	-webkit-filter: drop-shadow(2px 2px  #82c3a6);
 		filter: drop-shadow(2px 2px  #82c3a6);
 }
@@ -108,8 +101,6 @@ body{
 	width: 80%;
 	max-width: 100% ;
 	border: 1px solid #fff;
-	-webkit-filter: drop-shadow(2px 2px #02010a);
-			filter: drop-shadow(2px 2px #02010a);
 }
 
 .section .seccion3 img:hover{
@@ -151,60 +142,3 @@ body{
 	width: 25%;
 	padding: 15px;
 }
-
-@media (max-width: 900px){
-	.section .seccion1{
-		min-height: 450px;
-	}
-	
-
-}
-@media (max-width: 600px){
-	
-	.header{
-		display: flex;
-		flex-flow: column wrap;
-		align-items: center;
-		align-content: center;
-	}
-	.header .titulo{
-		width: 100;
-	}
-	.header .nav{
-		width: 100%;
-		text-align: center;
-	}
-	
-	.section{
-		display: flex;
-		flex-flow: column wrap;
-	}
-	.section .seccion1{
-		min-height: 250px;
-	}
-	
-	.section .seccion2, .seccion3{
-		width: 100%;
-	}
-	
-	.footer{
-		display: flex;
-		flex-flow: column wrap;
-		
-	}
-	
-	.footer .pie1{
-	width: 100%
-	}
-	.footer .pie2{
-	width: 100%
-	}
-	.footer .pie3{
-	width: 100%
-	}
-	.footer .pie4{
-	width: 100%
-	}
-}
-
-
