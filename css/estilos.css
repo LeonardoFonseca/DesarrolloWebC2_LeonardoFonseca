@@ -67,7 +67,7 @@ body{
 
 .section .seccion1{
 	width: 100%;
-	min-height: 600px;
+	min-height: 400px;
 	background: url(../img/pexels-photo-459225.jpeg);
 	background-attachment: contain;
 	background-position: center;
@@ -156,19 +156,27 @@ body{
 	.section .seccion1{
 		min-height: 450px;
 	}
-	
+
+    .header .titulo{
+        width: 50%;
+    }
+
+
+    .header .nav{
+        width: 50%;
+    }
 
 }
 @media (max-width: 600px){
 	
 	.header{
 		display: flex;
-		flex-flow: column wrap;
+		flex-flow: columnwrap;
 		align-items: center;
 		align-content: center;
 	}
 	.header .titulo{
-		width: 100;
+		width: 100%;
 	}
 	.header .nav{
 		width: 100%;
