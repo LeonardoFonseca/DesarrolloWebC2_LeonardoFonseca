@@ -3,8 +3,9 @@ body{
 }
 
 *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	font-family: 'Dancing Script', cursive;
-	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
 }
@@ -78,6 +79,22 @@ body{
 	width: 90%;
 }
 
+/*efectos seccion central*/
+
+.section .seccion1 img{
+	-webkit-filter:blur(10px);
+		filter: blur(10px);
+}
+.section .seccion2, .seccion4, .seccion6, img{
+	-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+}
+.section .seccion3 img{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+
+
 /*estilos pie de pagina*/
 
 .footer{
@@ -119,10 +136,11 @@ body{
 @media (max-width: 600px){
 
 	.header{
-		display: flex;
-		flex-flow: column wrap;
 		align-items: center;
 		align-content: center;
+		display: flex;
+		flex-flow: column wrap;
+
 	}
 	.header .titulo{
 		width: 100;
@@ -148,16 +166,7 @@ body{
 
 	}
 
-	.footer .pie1{
-	width: 100%
-	}
-	.footer .pie2{
-	width: 100%
-	}
-	.footer .pie3{
-	width: 100%
-	}
-	.footer .pie4{
+	.footer .pie1, .pie2, .pie3, .pie4{
 	width: 100%
 	}
 }
