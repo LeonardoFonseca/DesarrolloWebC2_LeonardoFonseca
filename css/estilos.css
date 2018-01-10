@@ -26,6 +26,23 @@ body{
 	flex-flow: row wrap;
 	border-radius: 10px 10px 0 0;
 	align-items: center;
+	animation: slidein 1.5s;
+}
+
+@-webkit-keyframes slidein{
+	0%{
+	margin-top: 150%;
+}
+	60%{
+	margin-top: -5%;
+}
+	100%{
+	margin-top: 0%;
+}
+
+.header .titulo{
+	width: 60%;
+}
 }
 
 .header .titulo{
@@ -177,10 +194,12 @@ body{
 	}
 	.header .titulo{
 		width: 100%;
+		padding: 5px;
 	}
 	.header .nav{
 		width: 100%;
 		text-align: center;
+		padding: 20px;
 	}
 	
 	.section{
